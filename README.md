@@ -1,8 +1,9 @@
-# Vue + Laravel でページネーション付きテーブルを作成する
+# Vue + Laravel + Bootstrap でページネーション付きテーブルを作成する
 
 https://github.com/naga3/vue-laravel-table
 
 Laravelのページネーション機能を使って、オリジナルのページネーション付きテーブルコンポーネントを作成します。
+テーブルとページネーションの見た目はBootstrapのコンポーネントを使います。
 
 # プロジェクト作成
 
