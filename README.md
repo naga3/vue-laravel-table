@@ -2,6 +2,8 @@
 
 https://github.com/naga3/vue-laravel-table
 
+![screen](https://raw.githubusercontent.com/naga3/vue-laravel-table/master/screen.gif)
+
 Laravelのページネーション機能を使って、オリジナルのページネーション付きテーブルコンポーネントを作成します。
 テーブルとページネーションの見た目はBootstrapのコンポーネントを使います。
 
