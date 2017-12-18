@@ -47,13 +47,13 @@
     },
     methods: {
       load(page) {
-        axios.get('/api/user?page=' + page).then(res => {
-          this.users = res.data.data
-          this.current_page = res.data.current_page
-          this.last_page = res.data.last_page
-          this.total = res.data.total
-          this.from = res.data.from
-          this.to = res.data.to
+        axios.get('/api/user?page=' + page).then(({data}) => {
+          this.users = data.data
+          this.current_page = data.current_page
+          this.last_page = data.last_page
+          this.total = data.total
+          this.from = data.from
+          this.to = data.to
         })
       },
       change(page) {
