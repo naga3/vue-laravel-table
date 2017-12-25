@@ -172,7 +172,7 @@ Vue.component('my-table', require('./components/MyTable.vue'));
 
 # テーブルコンポーネントにページネーションを追加
 
-`resources/assets/js/components/MyTable.vue`にページング用のナビゲーションを設置してみます。
+`resources/assets/js/components/MyTable.vue`にページング用のナビゲーションを設置してみます。以下のようにソースを変更します。
 
 ```html
 <template>
